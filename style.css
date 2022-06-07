@@ -97,6 +97,12 @@ nav img {
 
 }
 
+.social-icon h3 {
+    color: aliceblue;
+    font-size: 10px;
+
+}
+
 @media(max-width: 700px) {
     .text-box h1 {
         font-size: 20px;
