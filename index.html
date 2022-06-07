@@ -16,6 +16,7 @@
         }
 
     </style>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/fontawesome.min.css">
 </head>
 
 <body>
@@ -23,7 +24,8 @@
         <nav>
             <a href="index.html"><img
                     src="bilder/20210422_184957000_iOS.jpg"></a>
-            <div class="nav-links">
+            <div class="nav-links" id="navLinks">
+                <i class="fa-solid fa-rectangle-xmark" onclick="hideMenu()"></i>
                 <ul>
                     <li><a href="index.html">HJEM</a></li>
                     <li><a href="CV.html">CV</a></li>
@@ -31,6 +33,7 @@
                     <li><a href="prosjekter.html">PROSJEKTER</a></li>
                 </ul>
             </div>
+            <i class="fa-solid fa-bars" onclick="showMenu()"></i>
         </nav>
         <div class="text-box">
             <h1>Mathias Greve Johannessen</h1>
@@ -52,8 +55,20 @@
 
     </section>
 
-    
-    
+  <!-- javescript for toggle menu -->
+<script>
+
+    var navLinks = document.getElementById("navLinks")
+
+    function showMenu(){
+            navLinks.style.right = "0";
+    }
+
+    function hideMenu() {
+            navLinks.style.right = "-200px";
+        }
+
+</script>    
 
 </body>
 
