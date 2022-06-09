@@ -113,6 +113,10 @@ nav img {
     color: aliceblue;
 }
 
+.buffer {
+    height: 15rem;
+}
+
 .social-icon h3 {
     color: aliceblue;
     font-size: 10px;
