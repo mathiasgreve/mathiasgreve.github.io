@@ -74,14 +74,14 @@ nav img {
     justify-content: center
 }
 
-img {
+div img {
     max-width: 800px;
     max-height: 700px;
     margin: 10px;
     transition: all 1s;
 }
 
-img:hover {
+div img:hover {
     transform: scale(1.3);
 }
 
