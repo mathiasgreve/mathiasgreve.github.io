@@ -37,7 +37,7 @@ h1 {
 
 @media (max-width: 500px) {
     #map { 
-        height:700px;
+        height:600px;
         width:90%;
         display: inline-block;
         border-style:groove;
