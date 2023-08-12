@@ -34,3 +34,16 @@ h1 {
     font-size: var(--fs-h2);
     text-decoration: none;
 }
+
+@media (max-width: 500px) {
+    #map { 
+        height: 700px;
+        width: 300px;
+        display: inline-block;
+        border-style:groove;
+        border-width: medium;
+    
+            
+            font-family: 'Open Sans Condensed', sans-serif;
+    }
+}
