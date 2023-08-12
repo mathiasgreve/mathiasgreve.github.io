@@ -311,7 +311,7 @@ h3 {
     margin: 0 auto;
 }
 
-@media (min-width: 800px) {
+@media (min-width: 600px) {
     .services {
         display: flex;
         max-width: 1000px;
