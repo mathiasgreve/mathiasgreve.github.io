@@ -380,20 +380,22 @@ h3 {
 }
 
 .portfolio {
-    display: grid;
+    display:flexbox;
     grid-template-columns: repeat(auto-fit);
     max-width: 400px;
     margin: 0 auto;
 }
 
 .portfolio__item {
-    background: var(--clr-accent);
+    background: var(--clr-dark);
     overflow: hidden;
 }
 
 .portfolio__img {
     transition: 750ms cubic-bezier(.5, 0, .5, 1);
     opacity: 250ms linear;
+    max-width: 300px;
+    margin: 0 auto;
 }
 
 .portfolio__img:hover,
