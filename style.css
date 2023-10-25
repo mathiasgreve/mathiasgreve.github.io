@@ -11,9 +11,9 @@
     --fw-reg: 300;
     --fw-bold: 900;
 
-    --clr-light: #fff;
-    --clr-dark: #303030;
-    --clr-accent: #16e0bd;
+    --clr-light: #F9F7F7;
+    --clr-dark: #112D4E;
+    --clr-accent: #DBE2EF;
 
     --fs-h1: 3rem;
     --fs-h2: 3.25rem;
@@ -24,14 +24,14 @@
           0.125em 0.125em 0.25em rgba(0,0,0,.12);
 }
 
-@media (min-width: 800px) {
+/* @media (min-width: 800px) {
     :root {
     --fs-h1: 4.5;
     --fs-h2: 3.75rem;
     --fs-h3: 1.5rem;
     --fs-body: 1.125rem;
     }
-}
+} */
 
 /* general styles */
 
@@ -247,15 +247,22 @@ h3 {
     display: inline-block;
 }
 
-@media (min-width: 600px) {
+@media (min-width: 800px) {
     .intro {
         display: grid;
         width: min-content;
-        margin: 0 auto;
+        margin: 0 auto; 
         grid-template-areas: 
             "img title"
             "img subtitle";
         grid-template-columns: min-content max-content;
+
+        /* display: flex; */
+        /* max-width: 1000px; */
+        margin: 0 auto;
+        margin-left: auto;
+        margin-right: auto;
+
     }
 
     .intro__img {
@@ -269,7 +276,7 @@ h3 {
         align-self: start;
         grid-column: -1 / 1;
         grid-row: 2;
-        text-align: right;
+        text-align: center;
         position: relative;
         left: -1.5em;
         width: calc(100% + 1.5em);
